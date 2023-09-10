@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head itemscope itemtype="https://schema.org/WebSite">
+<meta charset="UTF-8" />
+<meta name="description" content="Artist of Love" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Blue Robin – Artist of Love</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Blue Robin &raquo; Feed" href="https://www.bluerobincmb.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blue Robin &raquo; Comments Feed" href="https://www.bluerobincmb.com/comments/feed/" />
+<link rel="canonical" href="https://www.bluerobincmb.com/" />
+		<!-- This site uses the Google Analytics by ExactMetrics plugin v7.18.1 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-WGZ960R2GZ"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var em_version = '7.18.1';
+				var em_track_user = true;
+				var em_no_track_reason = '';
+				
+								var disableStrs = [
+										'ga-disable-G-WGZ960R2GZ',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.ExactMetricsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (em_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = exactmetrics_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof ExactMetricsDualTracker.trackers[hookName] !== 'undefined') {
+								ExactMetricsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dNDMyYj': true,
+											});
+										__gtagTracker('config', 'G-WGZ960R2GZ', {"forceSSL":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by ExactMetrics -->
+		<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.bluerobincmb.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='woocommerce_views-block-style-css-css' href='https://www.bluerobincmb.com/wp-content/plugins/woocommerce-views/public/css/style.css?ver=3.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='dynamik_minified_stylesheet-css' href='https://www.bluerobincmb.com/wp-content/uploads/dynamik-gen/theme/dynamik-min.css?ver=1676047526' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.bluerobincmb.com/wp-includes/css/dist/block-library/style.min.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-blocks-vendors-style-css' href='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=10.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-blocks-style-css' href='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=10.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css' href='https://www.bluerobincmb.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://www.bluerobincmb.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='view_editor_gutenberg_frontend_assets-css' href='https://www.bluerobincmb.com/wp-content/plugins/wp-views/public/css/views-frontend.css?ver=3.6.7' type='text/css' media='all' />
+<style id='view_editor_gutenberg_frontend_assets-inline-css' type='text/css'>
+.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item a {color: #444;background-color: #fff;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:focus {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #eee;}
+.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item a {color: #444;background-color: #fff;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:focus {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item a {color: #444;background-color: #eeeeee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:focus {color: #000;background-color: #e5e5e5;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #e5e5e5;}
+.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item a {color: #444;background-color: #fff;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:focus {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item a {color: #444;background-color: #eeeeee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:focus {color: #000;background-color: #e5e5e5;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #e5e5e5;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item {border-color: #0099cc;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item a {color: #444;background-color: #cbddeb;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue a:focus {color: #000;background-color: #95bedd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #95bedd;}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='jquery-bxslider-css' href='https://www.bluerobincmb.com/wp-content/plugins/bb-plugin/css/jquery.bxslider.css?ver=2.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-2261-css' href='https://www.bluerobincmb.com/wp-content/uploads/bb-plugin/cache/2261-layout.css?ver=2715bfdaefb849a38e2f94ca59e3810e' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css' href='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/css/prettyPhoto.css?ver=6.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce_views_onsale_badge-css' href='https://www.bluerobincmb.com/wp-content/plugins/woocommerce-views/library/toolset/woocommerce-views/res/css/wcviews-onsalebadge.css?ver=3.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=7.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=7.9.0' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=7.9.0' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='dynamik_enqueued_google_fonts-css' href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%7CPT+Sans%7C&#038;ver=1.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='genesis-overrides-css-css' href='https://www.bluerobincmb.com/wp-content/plugins/wp-views/vendor/toolset/toolset-theme-settings/res/css/themes/genesis-overrides.css?ver=1.5.3' type='text/css' media='screen' />
+<link rel='stylesheet' id='photoswipe-css' href='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=7.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='photoswipe-default-skin-css' href='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=7.9.0' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/wp-views/vendor/toolset/common-es/public/toolset-common-es-frontend.js?ver=166000' id='toolset-common-es-frontend-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://stats.wp.com/w.js?ver=202336' id='woo-tracks-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend-gtag.min.js?ver=7.18.1' id='exactmetrics-frontend-script-js'></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='exactmetrics-frontend-script-js-extra'>/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/www.bluerobincmb.com","hash_tracking":"false","v4_id":"G-WGZ960R2GZ"};/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/woocommerce-views/library/toolset/woocommerce-views/res/js/wcviews-frontend.js?ver=3.1.5' id='woocommerce_views_frontend_js-js'></script>
+<link rel="https://api.w.org/" href="https://www.bluerobincmb.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.bluerobincmb.com/wp-json/wp/v2/pages/2261" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.bluerobincmb.com/xmlrpc.php?rsd" />
+<link rel="alternate" type="application/json+oembed" href="https://www.bluerobincmb.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bluerobincmb.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.bluerobincmb.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bluerobincmb.com%2F&#038;format=xml" />
+<script type='text/javascript' data-cfasync='false'>var _mmunch = {'front': false, 'page': false, 'post': false, 'category': false, 'author': false, 'search': false, 'attachment': false, 'tag': false};_mmunch['front'] = true;_mmunch['page'] = true; _mmunch['pageData'] = {"ID":2261,"post_name":"home","post_title":"Home","post_type":"page","post_author":"3","post_status":"publish"};</script><script data-cfasync="false" src="//a.mailmunch.co/app/v1/site.js" id="mailmunch-script" data-plugin="mc_mm" data-mailmunch-site-id="89123" async></script><style>
+.unselectable
+{
+-moz-user-select:none;
+-webkit-user-select:none;
+cursor: default;
+}
+html
+{
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+</style>
+<script id="wpcp_css_disable_selection" type="text/javascript">
+var e = document.getElementsByTagName('body')[0];
+if(e)
+{
+	e.setAttribute('unselectable',"on");
+}
+</script>
+<link rel="pingback" href="https://www.bluerobincmb.com/xmlrpc.php" />
+<meta itemprop="name" content="Blue Robin" />
+<meta itemprop="url" content="https://www.bluerobincmb.com/" />
+<!-- Hotjar Tracking Code for https://www.bluerobincmb.com/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:669964,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	 <script> window.addEventListener("load",function(){ var c={script:false,link:false}; function ls(s) { if(!['script','link'].includes(s)||c[s]){return;}c[s]=true; var d=document,f=d.getElementsByTagName(s)[0],j=d.createElement(s); if(s==='script'){j.async=true;j.src='https://www.bluerobincmb.com/wp-content/plugins/wp-views/vendor/toolset/blocks/public/js/frontend.js?v=1.6.5';}else{ j.rel='stylesheet';j.href='https://www.bluerobincmb.com/wp-content/plugins/wp-views/vendor/toolset/blocks/public/css/style.css?v=1.6.5';} f.parentNode.insertBefore(j, f); }; function ex(){ls('script');ls('link')} window.addEventListener("scroll", ex, {once: true}); if (('IntersectionObserver' in window) && ('IntersectionObserverEntry' in window) && ('intersectionRatio' in window.IntersectionObserverEntry.prototype)) { var i = 0, fb = document.querySelectorAll("[class^='tb-']"), o = new IntersectionObserver(es => { es.forEach(e => { o.unobserve(e.target); if (e.intersectionRatio > 0) { ex();o.disconnect();}else{ i++;if(fb.length>i){o.observe(fb[i])}} }) }); if (fb.length) { o.observe(fb[i]) } } }) </script>
+	<noscript>
+		<link rel="stylesheet" href="https://www.bluerobincmb.com/wp-content/plugins/wp-views/vendor/toolset/blocks/public/css/style.css">
+	</noscript><link rel="icon" href="https://www.bluerobincmb.com/wp-content/uploads/2023/02/cropped-BR-love-TM-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.bluerobincmb.com/wp-content/uploads/2023/02/cropped-BR-love-TM-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.bluerobincmb.com/wp-content/uploads/2023/02/cropped-BR-love-TM-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.bluerobincmb.com/wp-content/uploads/2023/02/cropped-BR-love-TM-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			
+		</style>
+		</head>
+<body class="home page-template-default page page-id-2261 theme-genesis fl-builder woocommerce-no-js unselectable header-image full-width-content genesis-breadcrumbs-hidden mac chrome feature-top-outside site-fluid override woocommerce" itemscope itemtype="https://schema.org/WebPage"><div class="site-container"><header class="site-header" itemscope itemtype="https://schema.org/WPHeader"><div class="wrap"><div class="title-area"><h1 class="site-title" itemprop="headline"><a href="https://www.bluerobincmb.com/">Blue Robin</a></h1><p class="site-description" itemprop="description">Artist of Love</p></div><div class="widget-area header-widget-area"><section id="nav_menu-2" class="widget widget_nav_menu"><div class="widget-wrap"><nav class="nav-header" itemscope itemtype="https://schema.org/SiteNavigationElement"><ul id="menu-main" class="menu genesis-nav-menu js-superfish"><li id="menu-item-3246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3246"><a href="https://www.bluerobincmb.com/gallery/" itemprop="url"><span itemprop="name">The Art</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-3700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3700"><a href="https://www.bluerobincmb.com/murals/" itemprop="url"><span itemprop="name">Murals</span></a></li>
+	<li id="menu-item-3291" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3291"><a href="https://openhaus.app/view/9d1Veb5N6C1/?cha=408" itemprop="url"><span itemprop="name">3D Nest</span></a></li>
+	<li id="menu-item-3270" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3270"><a href="https://www.bluerobincmb.com/wp-content/uploads/2023/06/BR-Artist_CV-2023.pdf" itemprop="url"><span itemprop="name">Artist CV</span></a></li>
+</ul>
+</li>
+<li id="menu-item-3454" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3454"><a href="https://www.bluerobincmb.com/young-healers/" itemprop="url"><span itemprop="name">The Experience</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-3453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3453"><a href="https://www.bluerobincmb.com/young-healers/" itemprop="url"><span itemprop="name">Young Healers Recap</span></a></li>
+	<li id="menu-item-3247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3247"><a href="https://www.bluerobincmb.com/loves-army-recap/" itemprop="url"><span itemprop="name">Loves Army Recap</span></a></li>
+	<li id="menu-item-2812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2812"><a href="https://www.bluerobincmb.com/root-of-love-recap/" itemprop="url"><span itemprop="name">Root of Love Recap</span></a></li>
+	<li id="menu-item-2407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2407"><a href="https://www.bluerobincmb.com/galarecap/" itemprop="url"><span itemprop="name">Gods and Angels Recap</span></a></li>
+	<li id="menu-item-1629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1629"><a href="https://www.bluerobincmb.com/her-heart-my-flag/" itemprop="url"><span itemprop="name">Her Heart My Flag Recap</span></a></li>
+</ul>
+</li>
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17"><a href="https://www.bluerobincmb.com/the-man/" itemprop="url"><span itemprop="name">The Story</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-505" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-505"><a href="https://www.bluerobincmb.com/the-teacher/" itemprop="url"><span itemprop="name">The Teacher</span></a></li>
+	<li id="menu-item-359" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-359"><a href="https://www.bluerobincmb.com/the-company/" itemprop="url"><span itemprop="name">The Company</span></a></li>
+	<li id="menu-item-1644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1644"><a href="https://www.bluerobincmb.com/br-productions/" itemprop="url"><span itemprop="name">The Team</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1582"><a href="https://www.bluerobincmb.com/the-store/" itemprop="url"><span itemprop="name">The Store</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2508" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2508"><a href="https://www.patreon.com/BlueRobincmb" itemprop="url"><span itemprop="name">Become a Patron</span></a></li>
+	<li id="menu-item-526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-526"><a href="https://www.bluerobincmb.com/the-art/commissions/" itemprop="url"><span itemprop="name">Commissions</span></a></li>
+	<li id="menu-item-2314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2314"><a href="https://www.bluerobincmb.com/cart/" itemprop="url"><span itemprop="name">Cart</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1640" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1640"><a href="https://www.bluerobincmb.com/news/" itemprop="url"><span itemprop="name">News</span></a></li>
+<li id="menu-item-3567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3567"><a href="https://www.bluerobincmb.com/blog/" itemprop="url"><span itemprop="name">The Blog</span></a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a href="https://www.bluerobincmb.com/contact/" itemprop="url"><span itemprop="name">Contact</span></a></li>
+</ul></nav></div></section>
+</div></div></header><nav class="nav-primary" aria-label="Main" itemscope itemtype="https://schema.org/SiteNavigationElement"><div class="wrap"><ul id="menu-main-1" class="menu genesis-nav-menu menu-primary js-superfish"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3246"><a href="https://www.bluerobincmb.com/gallery/" itemprop="url"><span itemprop="name">The Art</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3700"><a href="https://www.bluerobincmb.com/murals/" itemprop="url"><span itemprop="name">Murals</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3291"><a href="https://openhaus.app/view/9d1Veb5N6C1/?cha=408" itemprop="url"><span itemprop="name">3D Nest</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3270"><a href="https://www.bluerobincmb.com/wp-content/uploads/2023/06/BR-Artist_CV-2023.pdf" itemprop="url"><span itemprop="name">Artist CV</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3454"><a href="https://www.bluerobincmb.com/young-healers/" itemprop="url"><span itemprop="name">The Experience</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3453"><a href="https://www.bluerobincmb.com/young-healers/" itemprop="url"><span itemprop="name">Young Healers Recap</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3247"><a href="https://www.bluerobincmb.com/loves-army-recap/" itemprop="url"><span itemprop="name">Loves Army Recap</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2812"><a href="https://www.bluerobincmb.com/root-of-love-recap/" itemprop="url"><span itemprop="name">Root of Love Recap</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2407"><a href="https://www.bluerobincmb.com/galarecap/" itemprop="url"><span itemprop="name">Gods and Angels Recap</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1629"><a href="https://www.bluerobincmb.com/her-heart-my-flag/" itemprop="url"><span itemprop="name">Her Heart My Flag Recap</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17"><a href="https://www.bluerobincmb.com/the-man/" itemprop="url"><span itemprop="name">The Story</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-505"><a href="https://www.bluerobincmb.com/the-teacher/" itemprop="url"><span itemprop="name">The Teacher</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-359"><a href="https://www.bluerobincmb.com/the-company/" itemprop="url"><span itemprop="name">The Company</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1644"><a href="https://www.bluerobincmb.com/br-productions/" itemprop="url"><span itemprop="name">The Team</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1582"><a href="https://www.bluerobincmb.com/the-store/" itemprop="url"><span itemprop="name">The Store</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2508"><a href="https://www.patreon.com/BlueRobincmb" itemprop="url"><span itemprop="name">Become a Patron</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-526"><a href="https://www.bluerobincmb.com/the-art/commissions/" itemprop="url"><span itemprop="name">Commissions</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2314"><a href="https://www.bluerobincmb.com/cart/" itemprop="url"><span itemprop="name">Cart</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1640"><a href="https://www.bluerobincmb.com/news/" itemprop="url"><span itemprop="name">News</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3567"><a href="https://www.bluerobincmb.com/blog/" itemprop="url"><span itemprop="name">The Blog</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a href="https://www.bluerobincmb.com/contact/" itemprop="url"><span itemprop="name">Contact</span></a></li>
+</ul></div></nav>	<div id="dropdown-nav-wrap">
+		<!-- dropdown nav for responsive design -->
+		<nav id="dropdown-nav" role="navigation">
+			<div class="menu-main-container"><select id="menu-main-2" class="menu mobile-dropdown-menu nav-chosen-select"><option value="" class="blank">Navigation</option><option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3246 menu-item-depth-0" value="https://www.bluerobincmb.com/gallery/">The Art</option>	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3700 menu-item-depth-1" value="https://www.bluerobincmb.com/murals/">&ndash;&nbsp;Murals</option>
+	<option class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3291 menu-item-depth-1" value="https://openhaus.app/view/9d1Veb5N6C1/?cha=408">&ndash;&nbsp;3D Nest</option>
+	<option class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3270 menu-item-depth-1" value="https://www.bluerobincmb.com/wp-content/uploads/2023/06/BR-Artist_CV-2023.pdf">&ndash;&nbsp;Artist CV</option>
+
+<option class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3454 menu-item-depth-0" value="https://www.bluerobincmb.com/young-healers/">The Experience</option>	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3453 menu-item-depth-1" value="https://www.bluerobincmb.com/young-healers/">&ndash;&nbsp;Young Healers Recap</option>
+	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3247 menu-item-depth-1" value="https://www.bluerobincmb.com/loves-army-recap/">&ndash;&nbsp;Loves Army Recap</option>
+	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2812 menu-item-depth-1" value="https://www.bluerobincmb.com/root-of-love-recap/">&ndash;&nbsp;Root of Love Recap</option>
+	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2407 menu-item-depth-1" value="https://www.bluerobincmb.com/galarecap/">&ndash;&nbsp;Gods and Angels Recap</option>
+	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1629 menu-item-depth-1" value="https://www.bluerobincmb.com/her-heart-my-flag/">&ndash;&nbsp;Her Heart My Flag Recap</option>
+
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17 menu-item-depth-0" value="https://www.bluerobincmb.com/the-man/">The Story</option>	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-505 menu-item-depth-1" value="https://www.bluerobincmb.com/the-teacher/">&ndash;&nbsp;The Teacher</option>
+	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-359 menu-item-depth-1" value="https://www.bluerobincmb.com/the-company/">&ndash;&nbsp;The Company</option>
+	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1644 menu-item-depth-1" value="https://www.bluerobincmb.com/br-productions/">&ndash;&nbsp;The Team</option>
+
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1582 menu-item-depth-0" value="https://www.bluerobincmb.com/the-store/">The Store</option>	<option class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2508 menu-item-depth-1" value="https://www.patreon.com/BlueRobincmb">&ndash;&nbsp;Become a Patron</option>
+	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-526 menu-item-depth-1" value="https://www.bluerobincmb.com/the-art/commissions/">&ndash;&nbsp;Commissions</option>
+	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2314 menu-item-depth-1" value="https://www.bluerobincmb.com/cart/">&ndash;&nbsp;Cart</option>
+
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1640 menu-item-depth-0" value="https://www.bluerobincmb.com/news/">News</option>
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3567 menu-item-depth-0" value="https://www.bluerobincmb.com/blog/">The Blog</option>
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75 menu-item-depth-0" value="https://www.bluerobincmb.com/contact/">Contact</option>
+</select></div>			<div class="responsive-menu-icon">
+				<span class="responsive-icon-bar"></span>
+				<span class="responsive-icon-bar"></span>
+				<span class="responsive-icon-bar"></span>
+			</div>
+		</nav><!-- #dropdown-nav -->
+		<!-- /end dropdown nav -->
+	</div>
+<div class="site-inner"><div class="content-sidebar-wrap"><main class="content"><article class="post-2261 page type-page status-publish entry override" aria-label="Home" itemscope itemtype="https://schema.org/CreativeWork"><header class="entry-header"></header><div class="entry-content" itemprop="text"><div class='mailmunch-forms-before-post' style='display: none !important;'></div><div class="fl-builder-content fl-builder-content-2261 fl-builder-content-primary fl-builder-global-templates-locked" data-post-id="2261"><div class="fl-row fl-row-full-width fl-row-bg-none fl-node-5de87ac7e9bbe fl-row-default-height fl-row-align-center" data-node="5de87ac7e9bbe">
+	<div class="fl-row-content-wrap">
+						<div class="fl-row-content fl-row-full-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5de87ac7e9c39" data-node="5de87ac7e9c39">
+			<div class="fl-col fl-node-5de87ac7e9c71" data-node="5de87ac7e9c71">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-content-slider fl-node-5fcab8161b691" data-node="5fcab8161b691">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-content-slider">
+	<div class="fl-content-slider-wrapper">
+				<div class="fl-slide fl-slide-0 fl-slide-text-left">
+			<div class="fl-slide-mobile-photo"><img decoding="async" width="750" height="450" loading='false' class="fl-slide-mobile-photo-img wp-image-2774" src="https://www.bluerobincmb.com/wp-content/uploads/2020/12/Blue-Robin-Homepage-Banner-Mobile.jpg" alt="" srcset="https://www.bluerobincmb.com/wp-content/uploads/2020/12/Blue-Robin-Homepage-Banner-Mobile.jpg 750w, https://www.bluerobincmb.com/wp-content/uploads/2020/12/Blue-Robin-Homepage-Banner-Mobile-300x180.jpg 300w, https://www.bluerobincmb.com/wp-content/uploads/2020/12/Blue-Robin-Homepage-Banner-Mobile-550x330.jpg 550w" sizes="(max-width: 750px) 100vw, 750px" /></div><div class="fl-slide-bg-photo"></div>			<div class="fl-slide-foreground clearfix">
+				<div class="fl-slide-content-wrap"><div class="fl-slide-content"></div></div>			</div>
+		</div>
+			<div class="fl-slide fl-slide-1 fl-slide-text-left">
+			<div class="fl-slide-mobile-photo"><img decoding="async" width="750" height="450" loading='false' class="fl-slide-mobile-photo-img wp-image-2281" src="https://www.bluerobincmb.com/wp-content/uploads/2019/12/GA-homemobile.jpg" alt="" srcset="https://www.bluerobincmb.com/wp-content/uploads/2019/12/GA-homemobile.jpg 750w, https://www.bluerobincmb.com/wp-content/uploads/2019/12/GA-homemobile-300x180.jpg 300w, https://www.bluerobincmb.com/wp-content/uploads/2019/12/GA-homemobile-550x330.jpg 550w, https://www.bluerobincmb.com/wp-content/uploads/2019/12/GA-homemobile-1536x921.jpg 1536w, https://www.bluerobincmb.com/wp-content/uploads/2019/12/GA-homemobile-2048x1228.jpg 2048w" sizes="(max-width: 750px) 100vw, 750px" /></div><div class="fl-slide-bg-photo"></div>			<div class="fl-slide-foreground clearfix">
+				<div class="fl-slide-content-wrap"><div class="fl-slide-content"></div></div>			</div>
+		</div>
+		</div>
+				<div class="fl-clear"></div>
+</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-fixed-width fl-row-bg-none fl-node-5de87abf41b05 fl-row-default-height fl-row-align-center" data-node="5de87abf41b05">
+	<div class="fl-row-content-wrap">
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5de87abf4373d" data-node="5de87abf4373d">
+			<div class="fl-col fl-node-5de87abf43846" data-node="5de87abf43846">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-html fl-node-62f806251f9bc" data-node="62f806251f9bc">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-html">
+	<!-- START OPENHAUS CODE SNIPPET --><div id="openhaus-div-9d1Veb5N6C1"></div><script src="https://code.jquery.com/jquery-1.11.3.min.js"></script><script type="text/javascript">jQuery(document).ready(function(){var url = "https://api.openhaus.app/v1/embed/home/9d1Veb5N6C1/?cha=408";jQuery.get(url, function(data, status){jQuery("#openhaus-div-9d1Veb5N6C1").replaceWith(data);});});</script><!-- END OPENHAUS CODE SNIPPET --></div>
+	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-5e19130b993a5 fl-col-small" data-node="5e19130b993a5">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-rich-text fl-node-5e191307837b4" data-node="5e191307837b4">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<h3 style="text-align: center;">The Store</h3>
+</div>
+	</div>
+</div>
+<div class="fl-module fl-module-woocommerce fl-node-61a9615da537b" data-node="61a9615da537b">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-woocommerce-products"><div class="woocommerce columns-2 "><ul class="products columns-2">
+<li class="entry override product type-product post-3482 status-publish first instock product_cat-paintings has-post-thumbnail shipping-taxable purchasable product-type-variable">
+	<a href="https://www.bluerobincmb.com/product/pele-ginga/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img loading="lazy" width="300" height="300" src="https://www.bluerobincmb.com/wp-content/uploads/2022/12/pele-side-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" srcset="https://www.bluerobincmb.com/wp-content/uploads/2022/12/pele-side-300x300.jpg 300w, https://www.bluerobincmb.com/wp-content/uploads/2022/12/pele-side-550x550.jpg 550w, https://www.bluerobincmb.com/wp-content/uploads/2022/12/pele-side-200x200.jpg 200w, https://www.bluerobincmb.com/wp-content/uploads/2022/12/pele-side-768x768.jpg 768w, https://www.bluerobincmb.com/wp-content/uploads/2022/12/pele-side-1536x1536.jpg 1536w, https://www.bluerobincmb.com/wp-content/uploads/2022/12/pele-side-100x100.jpg 100w, https://www.bluerobincmb.com/wp-content/uploads/2022/12/pele-side.jpg 2008w" sizes="(max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">Ginga Fire</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>&nbsp;200.00</bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>&nbsp;345.00</bdi></span></span>
+</a><a href="https://www.bluerobincmb.com/product/pele-ginga/" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="3482" data-product_sku="" aria-label="Select options for &ldquo;Ginga Fire&rdquo;" aria-describedby="This product has multiple variants. The options may be chosen on the product page" rel="nofollow">Select options</a></li>
+<li class="entry override product type-product post-3476 status-publish last instock product_cat-paintings has-post-thumbnail shipping-taxable purchasable product-type-variable">
+	<a href="https://www.bluerobincmb.com/product/moe-focused/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://www.bluerobincmb.com/wp-content/uploads/2022/12/oddisee-side-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy" srcset="https://www.bluerobincmb.com/wp-content/uploads/2022/12/oddisee-side-300x300.jpg 300w, https://www.bluerobincmb.com/wp-content/uploads/2022/12/oddisee-side-550x550.jpg 550w, https://www.bluerobincmb.com/wp-content/uploads/2022/12/oddisee-side-200x200.jpg 200w, https://www.bluerobincmb.com/wp-content/uploads/2022/12/oddisee-side-768x768.jpg 768w, https://www.bluerobincmb.com/wp-content/uploads/2022/12/oddisee-side-1536x1536.jpg 1536w, https://www.bluerobincmb.com/wp-content/uploads/2022/12/oddisee-side-100x100.jpg 100w, https://www.bluerobincmb.com/wp-content/uploads/2022/12/oddisee-side.jpg 2008w" sizes="(max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">Moe Focused</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>&nbsp;200.00</bdi></span> &ndash; <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>&nbsp;345.00</bdi></span></span>
+</a><a href="https://www.bluerobincmb.com/product/moe-focused/" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="3476" data-product_sku="" aria-label="Select options for &ldquo;Moe Focused&rdquo;" aria-describedby="This product has multiple variants. The options may be chosen on the product page" rel="nofollow">Select options</a></li>
+</ul>
+</div></div>	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-5de87a33bcb61 fl-row-default-height fl-row-align-center" data-node="5de87a33bcb61">
+	<div class="fl-row-content-wrap">
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5de87ab8b9090" data-node="5de87ab8b9090">
+			<div class="fl-col fl-node-5de87ab8b9146" data-node="5de87ab8b9146">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-rich-text fl-node-5de88786e1369" data-node="5de88786e1369">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<h1>Artist of Love</h1>
+<p><span style="font-weight: 400;">My art is sensory. It is to be consumed and interpreted in ways that leave my audience feeling at the very least: human and alive. It pinches you so that you know you are not dreaming.</span></p><div class='mailmunch-forms-in-post-middle' style='display: none !important;'></div>
+</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</div></p><div class='mailmunch-forms-after-post' style='display: none !important;'></div></div></article><img src="https://www.bluerobincmb.com/wp-content/themes/dynamik-gen/images/content-filler.png" class="dynamik-content-filler-img" alt=""></main></div>	  					<script>
+	  						if ( undefined !== window.jQuery ) {
+	  							(function($) {
+	  								// Look for WCB Blocks.
+	  								var WCBBlocks = $('[class*="wp-block-woocommerce-views"]');
+
+	  								if( WCBBlocks.length === 0 ) {
+	  									// Remove woocommerce class from body when no WCB block is used.
+										// This is required because $we_have_executed_shortcode will be false
+										// when the Views Cache is active.
+										$("body").removeClass("woocommerce");
+									}
+	  							})(jQuery);
+	  						}
+	  					</script>
+
+	  			</div>	<div id="ez-fat-footer-container-wrap" class="clearfix">
+	
+		<div id="ez-fat-footer-container" class="clearfix">
+	
+			<div id="ez-fat-footer-1" class="widget-area ez-widget-area one-half first">
+				<section id="text-5" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><p>© 2023 Blue Robin Designs, LLC</p>
+</div>
+		</div></section>
+			</div><!-- end #fat-footer-1 -->
+	
+			<div id="ez-fat-footer-2" class="widget-area ez-widget-area one-half">
+				<section id="text-2" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><div id="social_icons">
+
+<a class="item instagram" title="https://www.instagram.com/bluerobincmb/" href="https://www.instagram.com/bluerobincmb/" target="_blank" rel="noopener"></a>
+
+<a class="item facebook" title="https://www.facebook.com/BR.Savant" href="https://www.facebook.com/BR.Savant" target="_blank" rel="noopener"></a>
+ 
+
+
+</div></div>
+		</div></section>
+			</div><!-- end #fat-footer-2 -->
+					
+		</div><!-- end #fat-footer-container -->
+		
+	</div><!-- end #fat-footer-container-wrap -->
+</div>	<div id="wpcp-error-message" class="msgmsg-box-wpcp hideme"><span>error: </span>Content is protected !!</div>
+	<script>
+	var timeout_result;
+	function show_wpcp_message(smessage)
+	{
+		if (smessage !== "")
+			{
+			var smessage_text = '<span>Alert: </span>'+smessage;
+			document.getElementById("wpcp-error-message").innerHTML = smessage_text;
+			document.getElementById("wpcp-error-message").className = "msgmsg-box-wpcp warning-wpcp showme";
+			clearTimeout(timeout_result);
+			timeout_result = setTimeout(hide_message, 3000);
+			}
+	}
+	function hide_message()
+	{
+		document.getElementById("wpcp-error-message").className = "msgmsg-box-wpcp warning-wpcp hideme";
+	}
+	</script>
+		<style>
+	@media print {
+	body * {display: none !important;}
+		body:after {
+		content: "You are not allowed to print preview this page, Thank you"; }
+	}
+	</style>
+		<style type="text/css">
+	#wpcp-error-message {
+	    direction: ltr;
+	    text-align: center;
+	    transition: opacity 900ms ease 0s;
+	    z-index: 99999999;
+	}
+	.hideme {
+    	opacity:0;
+    	visibility: hidden;
+	}
+	.showme {
+    	opacity:1;
+    	visibility: visible;
+	}
+	.msgmsg-box-wpcp {
+		border:1px solid #f5aca6;
+		border-radius: 10px;
+		color: #555;
+		font-family: Tahoma;
+		font-size: 11px;
+		margin: 10px;
+		padding: 10px 36px;
+		position: fixed;
+		width: 255px;
+		top: 50%;
+  		left: 50%;
+  		margin-top: -10px;
+  		margin-left: -130px;
+  		-webkit-box-shadow: 0px 0px 34px 2px rgba(242,191,191,1);
+		-moz-box-shadow: 0px 0px 34px 2px rgba(242,191,191,1);
+		box-shadow: 0px 0px 34px 2px rgba(242,191,191,1);
+	}
+	.msgmsg-box-wpcp span {
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+		.warning-wpcp {
+		background:#ffecec url('https://www.bluerobincmb.com/wp-content/plugins/wp-content-copy-protector/images/warning.png') no-repeat 10px 50%;
+	}
+    </style>
+	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/bb-plugin/js/jquery.easing.min.js?ver=1.4' id='jquery-easing-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/bb-plugin/js/jquery.fitvids.min.js?ver=1.2' id='jquery-fitvids-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/bb-plugin/js/jquery.bxslider.min.js?ver=2.7.2' id='jquery-bxslider-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/uploads/bb-plugin/cache/2261-layout.js?ver=d53565f378f7e3e9fa960da5db9da225' id='fl-builder-layout-2261-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.5' id='prettyPhoto-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.init.min.js?ver=7.9.0' id='prettyPhoto-init-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.9.0' id='jquery-blockui-js'></script>
+<script type='text/javascript' id='wc-add-to-cart-js-extra'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/www.bluerobincmb.com\/cart\/","is_cart":"","cart_redirect_after_add":"yes"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.9.0' id='wc-add-to-cart-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.9.0' id='js-cookie-js'></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.9.0' id='woocommerce-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2' id='hoverIntent-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/themes/genesis/lib/js/menu/superfish.min.js?ver=1.7.10' id='superfish-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/themes/genesis/lib/js/menu/superfish.args.min.js?ver=3.4.0' id='superfish-args-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/themes/dynamik-gen/lib/js/dynamik-responsive.js?ver=1.7.1' id='responsive-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.7.9.0' id='zoom-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.7.9.0' id='flexslider-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.7.9.0' id='photoswipe-js'></script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.7.9.0' id='photoswipe-ui-default-js'></script>
+<script type='text/javascript' id='wc-single-product-js-extra'>
+/* <![CDATA[ */
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"","zoom_options":[],"photoswipe_enabled":"","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.bluerobincmb.com/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=7.9.0' id='wc-single-product-js'></script>
+		<script type="text/javascript">
+				jQuery('.soliloquy-container').removeClass('no-js');
+		</script>
+		</body></html>
+
+<!-- Dynamic page generated in 0.968 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2023-09-10 11:12:30 -->
+
+<!-- super cache -->
